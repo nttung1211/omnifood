@@ -1,0 +1,311 @@
+@media (max-width: 1200px) {
+    .sticky .nav-bar,
+    .horizontal {
+        width: 95%;
+    }
+    
+    /*----- SECTION FEATURES -----*/
+
+    /*----- SECTION MEALS -----*/
+
+
+    /*----- SECTION STEPS -----*/
+
+}
+
+@media (max-width: 1024px) {
+    :root {
+        font-size: 9px;
+    }
+
+    h3 {
+        font-size: 2.1rem;
+        padding: 10px 0;
+    }
+
+    .purchase,
+    .testimonials,
+    .cities,
+    .steps,
+    .features {
+        padding: 60px 0 70px 0;
+    }
+
+    /*----- SECTION FEATURES -----*/
+
+
+    /*----- SECTION MEALS -----*/
+
+
+    /*----- SECTION STEPS -----*/
+    .steps__main {
+        margin-top: 40px;
+    }
+    .steps__main-img {
+        width: 165px;
+    }
+
+    .steps__right {
+        padding: 0px 2%;
+    }
+
+    .steps__step:nth-of-type(3) {
+        margin-bottom: 50px;
+    }
+
+    .steps__index {
+        line-height: 46px;
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    .steps__text {
+        width: 80%;
+    }
+
+    .steps__btn-img {
+        height: 45px;
+    }
+
+    /*---- SECTION CITIES -----*/
+    .cities__module {
+        margin: 1%;
+        width: 23%;
+    }
+    .cities__email,
+    .cities__feature {
+        margin: 10px 0;
+        letter-spacing: 0;
+    }
+    .cities__icon {
+        font-size: 2rem;
+        margin: 0 0px -3px 0;
+    }
+
+    /*----- SECTION SIGN IN -----*/
+    .sign-in,
+    .sign-up {
+        padding: 30px 0;
+        border-radius: 5px;
+        max-width: 500px;
+        width: 100%; 
+    }
+
+    .sign-in {
+        max-width: 480px;
+    }
+
+    .field {
+    margin: 0px 0 5px 0;
+    }
+
+    .btn--submit {
+        margin: 30px auto 0 auto;
+    }
+
+    .switch-mode {
+        margin: 20px 0 0 0;
+    }
+
+    /*----- SECTION PURCHASE -----*/
+    .card {
+        width: 31.33%;
+        margin: 1%;
+        font-size: 1.7rem;
+    }
+
+    .card__price span {
+        font-size: 5rem;
+    }
+
+    .card__profit {
+        font-size: 1.5rem;
+    }
+
+    .card__check-icon {
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sticky .nav-bar,
+    .horizontal {
+        width: 92%;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2.9rem;
+        letter-spacing: 0.5px;
+        word-spacing: 2px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-bar__menu {
+        margin-top: 10px;
+        height: 0px;
+        /* opacity: 0; */
+        overflow: hidden;
+        background: rgba(0, 0, 0, .6);
+        z-index: 3;
+        width: 100vw;
+        position: absolute;
+        left: -4.4%;
+        top: 120px;
+        padding: 0px 4.5%;
+    }
+    
+    .sticky .nav-bar__menu {
+        top: 50px;
+        background: rgba(0, 0, 0, .8);
+    }
+    
+    .nav-bar__link {
+        display: block;
+        margin: 0;
+    }
+
+    .purchase,
+    .testimonials,
+    .cities,
+    .steps,
+    .features {
+        padding: 4rem 0 5rem 0;
+    }
+
+    /*----- SECTION FEATURES -----*/
+    .features__modules-wrapper {
+        margin-top: 0;
+    }
+
+    .features__module {
+        margin: 20px 0 0 0;
+        width: 100%;
+    }
+
+    .features__greeting {
+        width: 100%;
+    }
+
+    .features__icon {
+        font-size: 7rem;
+    }
+
+    /*----- SECTION MEALS -----*/
+    .meals__img-container {
+        width: 50%;
+    }
+
+    /*----- SECTION STEPS -----*/
+    .steps__left,
+    .steps__right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .steps__step {
+        text-align: left;
+    }
+
+    .steps__left {
+        margin-bottom: 20px;
+    }
+
+    /*----- SECTION CITIES -----*/
+    .cities__module {
+        width: 47%;
+    }
+    
+    /*----- SECTION TESTIMONIAL -----*/
+    .testimonials__module {
+        width: 100%;
+        margin: 0 0 50px 0;
+    }
+
+    .testimonials__quote {
+        margin: 10px 0 20px 0;
+    }
+
+    /*----- SECTION PURCHASE -----*/
+    .card {
+        width: 70%;
+        margin: 2% auto;
+        font-size: 1.8rem;
+    }
+
+    .card__feature {
+        margin: 4% 2%;
+    }
+
+    .card__price span {
+        font-size: 6rem;
+    }
+
+    .card__profit {
+        font-size: 1.6rem;
+    }
+
+    .card__check-icon {
+        margin: 0 10px;
+    }
+
+    /*----- FOOTER -----*/
+    .footer__info {
+        /* flex-direction: column; */
+        padding: 15px 0;
+    }
+    .footer__info ul {
+        flex-basis: auto;
+        min-width: 50%;
+        padding: 5px 15px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 3.3rem;
+        letter-spacing: .5px;
+        word-wrap: 2px;
+    }
+
+    h2 {
+        font-size: 2.7rem;
+    }
+
+    header .btn {
+        margin-bottom: 0;
+    }
+
+    /*----- SECTION FEATURES -----*/
+
+    /*----- SECTION MEALS -----*/
+
+    /*----- SECTION STEPS -----*/
+
+    /*----- SECTION CITIES -----*/
+    .cities__module {
+        width: 99%;
+        margin: 4% 1%;
+    }
+
+    /*----- SECTION PURCHASE -----*/
+    .card {
+        width: 90%;
+    }
+    
+    .steps__btn-img {
+        height: 40px;
+    }
+}
